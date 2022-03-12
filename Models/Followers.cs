@@ -9,5 +9,5 @@ public class Followers{
 
     //FollowersId is the id of the user following you
     public int FollowersId { get; set; }
-    public string FollowersUserName { get; set; }
+    public string? FollowersUserName { get; set; }
 }

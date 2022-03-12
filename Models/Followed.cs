@@ -8,5 +8,5 @@ public class Followed{
 
     //The Id of the person you are following
     public int FollowedId { get; set; }
-    public string FollowedUserName { get; set; }
+    public string? FollowedUserName { get; set; }
 }
